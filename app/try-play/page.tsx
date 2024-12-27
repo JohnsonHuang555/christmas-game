@@ -191,7 +191,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-center h-dvh">
       <div className="w-[600px] max-md:w-[90%] flex flex-col items-center justify-center">
         <motion.div
           initial={{ opacity: 0 }}
