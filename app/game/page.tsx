@@ -177,7 +177,12 @@ const GamePage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="w-[600px] max-md:w-[90%] flex flex-col items-center justify-center">
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mb-4 flex-row flex items-center">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+          className="mb-4 flex-row flex items-center"
+        >
           <Image src="/timer.svg" width={28} height={28} alt="timer" />
           <div className="text-2xl ml-1 font-medium">
             {remainedTime}
