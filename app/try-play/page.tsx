@@ -197,6 +197,14 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
+          className="absolute top-24 text-xl ml-1 font-normal"
+        >
+          試玩一下
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
           className="mb-6 flex-row flex items-center"
         >
           <Image src="/timer.svg" width={28} height={28} alt="timer" />
@@ -285,7 +293,7 @@ export default function Home() {
               onClick={() => {
                 push('/game');
               }}
-              className="border py-3 px-5 rounded-md bg-zinc-500 text-white text-lg"
+              className="border py-3 px-5 rounded-md bg-red-500 text-white text-lg"
             >
               正式開始囉！
             </button>

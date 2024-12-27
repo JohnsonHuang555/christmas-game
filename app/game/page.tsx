@@ -241,7 +241,7 @@ const GamePage = () => {
                                   src={`/game/${card.content}.jpg`}
                                   alt="question"
                                   fill
-                                  style={{height: "100%", width:"100%"}}
+                                  style={{ height: "100%", width:"100%" }}
                                   priority
                                 />
                               </div>

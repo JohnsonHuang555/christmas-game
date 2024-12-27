@@ -99,8 +99,8 @@ const Cards: any = [
   {
     id: 16,
     isFlip: false,
-    adj1: '9',
-    adj2: '10',
+    adj1: '需要用到嘴巴的',
+    adj2: '每天都需要用到的',
   },
   {
     id: 17,
@@ -111,8 +111,8 @@ const Cards: any = [
   {
     id: 18,
     isFlip: false,
-    adj1: '可以訓練手指的、有聲音的',
-    adj2: '會動的',
+    adj1: '二合一的',
+    adj2: '有聲音的、會動的',
   },
   {
     id: 19,
@@ -123,8 +123,8 @@ const Cards: any = [
   {
     id: 20,
     isFlip: false,
-    adj1: '9',
-    adj2: '10',
+    adj1: '百搭又實用的',
+    adj2: '',
   },
   {
     id: 21,
@@ -135,8 +135,8 @@ const Cards: any = [
   {
     id: 22,
     isFlip: false,
-    adj1: '9',
-    adj2: '10',
+    adj1: '下半身用的',
+    adj2: 'Marvels 蜘蛛人聯名款、很實用',
   },
 ];
 
